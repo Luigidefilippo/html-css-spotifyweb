@@ -4,39 +4,192 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link -->
+    <!-- link css  -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-s.css">
+    <link rel="stylesheet" href="css/media-xs.css">
+    <!-- font aweson -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    
     <title>Spotify</title>
 </head>
 <body>
-     <div class="wrapper">
+    <div class="wrapper">
         <div class="main">
-            <!-- SIDE BAR -->
+            <!-- NAV BAR -->
             <div class="nav-bar">
-    
+                <div class="container">
+                    <img class="logo" src="./img/logo.svg" alt="">
+                    <ul>
+                        <li class="nav-evidence"><img src="./img/home.svg" alt=""><span> Home</span></li>
+                        <li class="nav-evidence"><img src="./img/search.svg" alt=""><span> Cerca</span></li>
+                        <li class="nav-evidence"><img src="./img/libreria.svg" alt=""><span> La tua libreria</span></li>
+                    </ul>
+                </div>
+                <div class="container playlist">
+                    <h4>PLAYLIST</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-square-plus"></i>Crea Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="side-foot">
+                        <p><i class="fa-solid fa-circle-down"></i>Installa app</p>
+                        <hr>
+                        <p><img class="profile" src="./img/profile.svg" alt="">Luigi De Filippo</p>
+                    </div>
+                    
+
+                </div>
             </div>
-            <!-- END SIDE BAR -->
+            <!--/NAV BAR -->
             <div class="right-content">
                 <!-- FIXED BAR -->
                 <div class="up-fix">
-        
+                    <a class="button-fix" href="">EFFETTUA L'UPGRADE</a>
+                    
                 </div>
                 <!-- END FIXED BAR -->
                 <!-- MAIN CONTENT -->
                 <div class="main-content">
-        
+                    <div class="categories">
+                        <span class="evidence">IN EVIDENZA</span>
+                        <span class="evidence">PODCAST</span>
+                        <span class="evidence">CLASSIFICHE</span>
+                        <span class="evidence">GENERI E MOOD</span>
+                        <span class="evidence">NUOVE USCITE</span>
+                        <span class="evidence" >SCOPRI</span>
+                    </div>
+                    <div class="main-title">
+                        <h2>Recently played</h2>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <img src="./img/metal_lifting.jpg" alt="">
+                            <h4>Heavy Metal</h4>
+                            <p>Subtitle</p>
+
+                        </div>
+                        <div class="col">
+                            <img src="./img/stranger.jpeg" alt="">
+                            <h4>Strenger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+                            <p>Kyle Dixon & Michael Stein</p>
+
+                        </div>
+                        <div class="col">
+                            <img class="after" src="./img/aquietplace.jpeg" alt="">
+                            <h4>A quiet place</h4>
+                            <p>Subtitle</p>
+
+                        </div>
+                        <div class="col">
+                            <img src="./img/split.jpeg" alt="">
+                            <h4>Split</h4>
+                            <p>Subtitle</p>
+
+                        </div>
+                        <div class="col">
+                            <img src="./img/cure.jpeg" alt="">
+                            <h4>A cure for wellness</h4>
+                            <p>Subtitle</p>
+
+                        </div>
+                        <div class="col">
+                            <img src="./img/sinister.jpeg" alt="">
+                            <h4>Sinister</h4>
+                            <p>Subtitle</p>
+
+                        </div>
+                    </div>
+                    <div class="main-title">
+                        <h2>Creato per Luigi</h2>
+                        <p>Più ascolti, più accurati saranno i suggerimenti</p>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img src="./img/radar.jpeg" alt="">
+                            <h4>Release Radar</h4>
+                        </div>
+                        <div class="col">
+                            <img src="./img/mixdaily.jpeg" alt="">
+                            <h4>Daily Mix 1</h4>
+                        </div>
+
+                    </div>
+                    <div class="main-title">
+                        <h2>Artisti più popolari</h2>
+                        <p>Più ascolti, più accurati saranno i suggerimenti</p>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img class="circle" src="./img/youg.jpeg" alt="">
+                            <h4>Lana Del Ray</h4>
+                        </div>
+                        <div class="col">
+                            <img class="circle" src="./img/einaudi.jpeg" alt="">
+                            <h4>Ludovico Enaudi</h4>
+                        </div>
+
+                    </div>
                 </div>
-                <!-- END MAIN CONTENT -->
+                <!--/MAIN CONTENT -->
 
             </div>
         </div>
         <div class="footer">
             <!-- PLAYER BAR -->
-            <div class="player-bar">
-    
+            <div class="player-bar flex">
+                <div class="left-foot flex">
+                    <img src="./img/sinister.jpeg" alt="">
+                    <div class="foot-text ">
+                        <h6>Sinister</h6>
+                        <p>Brano Nome</p>
+
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+                <div class="mid-foot">
+                    <div class="mid-top">
+                        <i class="fa-solid fa-shuffle"></i>
+                        <i class="fa-solid fa-backward-step"></i>
+                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-solid fa-forward-step"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                    <div class="mid-bot">
+                        <span>0:25</span>
+                        <input type="range" min="1" max="100" value="50" class="slider">
+                        <span>4:35</span>
+
+                    </div>
+
+                </div>
+                <div class="right-foot">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-desktop"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <span class="sound"></span>
+
+                </div>
+                
             </div>
-            <!-- END PLAYER BAR -->  
+            <!--/PLAYER BAR -->  
         </div>
     </div>
+     
 </body>
 </html>
