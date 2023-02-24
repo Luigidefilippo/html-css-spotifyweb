@@ -22,39 +22,40 @@
     <div class="wrapper">
         <div class="main">
             <!-- NAV BAR -->
-            <div class="nav-bar">
+            <div class="side-bar">
                 <div class="container">
                     <img class="logo" src="./img/logo.svg" alt="">
+                    <img class="logo-small" src="./img/logo-small.svg" alt="">
                     <ul>
-                        <li class="nav-evidence"><img src="./img/home.svg" alt=""><span> Home</span></li>
-                        <li class="nav-evidence"><img src="./img/search.svg" alt=""><span> Cerca</span></li>
-                        <li class="nav-evidence"><img src="./img/libreria.svg" alt=""><span> La tua libreria</span></li>
+                        <li><img class="nav-barhover" src="./img/home.svg" alt=""><span> Home</span></li>
+                        <li><img class="nav-barhover" src="./img/search.svg" alt=""><span> Cerca</span></li>
+                        <li><img class="nav-barhover"  src="./img/libreria.svg" alt=""><span> La tua libreria</span></li>
                     </ul>
                 </div>
                 <div class="container playlist">
                     <h4>PLAYLIST</h4>
                     <ul>
-                        <li><i class="fa-solid fa-square-plus"></i>Crea Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
+                        <li><i class="fa-solid fa-square-plus"></i><span>Crea Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
                     </ul>
                 </div>
                 <div class="container">
                     <div class="side-foot">
-                        <p><i class="fa-solid fa-circle-down"></i>Installa app</p>
+                        <p><i class="fa-solid fa-circle-down"></i><span>Installa app</span></p>
                         <hr>
-                        <p><img class="profile" src="./img/profile.svg" alt="">Luigi De Filippo</p>
+                        <p><img class="profile" src="./img/profile.svg" alt=""><span>Luigi De Filippo</span></p>
                     </div>
                     
 
                 </div>
             </div>
-            <!--/NAV BAR -->
+            <!-- /NAV BAR -->
             <div class="right-content">
                 <!-- FIXED BAR -->
                 <div class="up-fix">
@@ -65,12 +66,12 @@
                 <!-- MAIN CONTENT -->
                 <div class="main-content">
                     <div class="categories">
-                        <span class="evidence">IN EVIDENZA</span>
-                        <span class="evidence">PODCAST</span>
-                        <span class="evidence">CLASSIFICHE</span>
-                        <span class="evidence">GENERI E MOOD</span>
-                        <span class="evidence">NUOVE USCITE</span>
-                        <span class="evidence" >SCOPRI</span>
+                        <span class="evidencegre">IN EVIDENZA</span>
+                        <span class="evidencegre">PODCAST</span>
+                        <span class="evidencegre">CLASSIFICHE</span>
+                        <span class="evidencegre">GENERI E MOOD</span>
+                        <span class="evidencegre" >NUOVE USCITE</span>
+                        <span class="evidencegre">SCOPRI</span>
                     </div>
                     <div class="main-title">
                         <h2>Recently played</h2>
@@ -78,37 +79,67 @@
                     
                     <div class="row">
                         <div class="col">
-                            <img src="./img/metal_lifting.jpg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img src="./img/metal_lifting.jpg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
 
                         </div>
                         <div class="col">
-                            <img src="./img/stranger.jpeg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img src="./img/stranger.jpeg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>Strenger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
                             <p>Kyle Dixon & Michael Stein</p>
 
                         </div>
                         <div class="col">
-                            <img class="after" src="./img/aquietplace.jpeg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img src="./img/aquietplace.jpeg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>A quiet place</h4>
                             <p>Subtitle</p>
 
                         </div>
                         <div class="col">
-                            <img src="./img/split.jpeg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img src="./img/split.jpeg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>Split</h4>
                             <p>Subtitle</p>
 
                         </div>
                         <div class="col">
-                            <img src="./img/cure.jpeg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img src="./img/cure.jpeg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>A cure for wellness</h4>
                             <p>Subtitle</p>
 
                         </div>
                         <div class="col">
-                            <img src="./img/sinister.jpeg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img src="./img/sinister.jpeg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>Sinister</h4>
                             <p>Subtitle</p>
 
@@ -120,11 +151,21 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <img src="./img/radar.jpeg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img src="./img/radar.jpeg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>Release Radar</h4>
                         </div>
                         <div class="col">
-                            <img src="./img/mixdaily.jpeg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img src="./img/mixdaily.jpeg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>Daily Mix 1</h4>
                         </div>
 
@@ -135,17 +176,27 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <img class="circle" src="./img/youg.jpeg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img class="circle" src="./img/youg.jpeg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>Lana Del Ray</h4>
                         </div>
                         <div class="col">
-                            <img class="circle" src="./img/einaudi.jpeg" alt="">
+                            <div id="nopad" class="img-container">
+                                <img class="circle" src="./img/einaudi.jpeg" alt="">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h4>Ludovico Enaudi</h4>
                         </div>
 
                     </div>
                 </div>
-                <!--/MAIN CONTENT -->
+                <!-- END MAIN CONTENT -->
 
             </div>
         </div>
@@ -159,16 +210,19 @@
                         <p>Brano Nome</p>
 
                     </div>
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-regular fa-folder"></i>
+                    <div class="left-icon">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                        <a href=""><i class="fa-regular fa-folder"></i></a>
+
+                    </div>
                 </div>
                 <div class="mid-foot">
                     <div class="mid-top">
-                        <i class="fa-solid fa-shuffle"></i>
-                        <i class="fa-solid fa-backward-step"></i>
-                        <i class="fa-regular fa-circle-play"></i>
-                        <i class="fa-solid fa-forward-step"></i>
-                        <i class="fa-solid fa-rotate-right"></i>
+                        <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                        <a href=""><i class="fa-solid fa-backward-step"></i></a>
+                        <a href=""><i class="fa-regular fa-circle-play"></i></a>
+                        <a href=""><i class="fa-solid fa-forward-step"></i></a>
+                        <a href=""><i class="fa-solid fa-rotate-right"></i></a>
                     </div>
                     <div class="mid-bot">
                         <span>0:25</span>
@@ -179,15 +233,15 @@
 
                 </div>
                 <div class="right-foot">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-desktop"></i>
-                    <i class="fa-solid fa-volume-high"></i>
-                    <span class="sound"></span>
+                    <a href=""><i class="fa-solid fa-bars"></i></a>
+                    <a href=""><i class="fa-solid fa-desktop"></i></a>
+                    <a href=""><i class="fa-solid fa-volume-high"></i></a>
+                    <input type="range" min="1" max="100" value="50" class="slider-right">
 
                 </div>
                 
             </div>
-            <!--/PLAYER BAR -->  
+            <!-- END PLAYER BAR -->  
         </div>
     </div>
      
